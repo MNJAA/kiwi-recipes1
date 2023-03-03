@@ -30,14 +30,17 @@ body {
 .R {
     flex: grow 1;
     margin-top: 50px;
-    margin-left: 455px;
+    margin-left: 355px;
+    margin-right:200px;
 }
 
 .RI {
     flex-grow: 1;
     margin: 20px;
-    margin-left: 455px;
+    margin-left: 355px;
+    margin-right:200px;
 }
+
 
 text {
     color: white;
