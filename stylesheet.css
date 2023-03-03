@@ -1,10 +1,51 @@
-* {
-    background: rgba(90, 156, 10, 0.847);
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+.flex {
+    background-color: rgb(46, 46, 46);
+    display: flex;
+}
+
+#AA {
+    margin-left: 70px;
+    display: flex;
+}
+
+.A {
+    margin-left: 100px;
+    margin-top: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+#flex {
+    display: flex;
+}
+
+#RR {
+    display: flexbox;
+}
+
+.R {
+    flex: grow 1;
+    margin-top: 50px;
+    margin-left: 455px;
+}
+
+.RI {
+    flex-grow: 1;
+    margin: 20px;
+    margin-left: 455px;
+}
+
+text {
+    color: white;
 }
 
 h1 h2 h3 h4 {
     text-align: center;
-    color: rgba(52, 51, 51, 0.833)
+    color: rgba(88, 88, 88, 0.833)
 }
 
 p {
@@ -12,20 +53,4 @@ p {
     font-size: medium;
     color: rgba(255, 255, 255, 0.558);
     background-color: rgb(11, 13, 16)
-}
-
-.p {
-    outline-color: black;
-    outline-style: auto;
-    outline-width: 5px;
-}
-
-.header {
-    display: flex;
-}
-
-.header div {
-    margin: 2%;
-    margin: top 80px; ;
-    
 }
